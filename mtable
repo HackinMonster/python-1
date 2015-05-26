@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.magenta + 'Mmmmmm, Multipication Problems... I hate those things!' + c.reset)
+
+number = input (c.red + 'What number? ')
+
+print(c.magenta + 'Ok, here are the ' + number + c.magenta + ' math things')
+
+for multiplier in range(12,0,-1):
+    answer = multiplier * int(number)
+    print(str(multiplier)+ ' x ' + number + ' = ' + str(answer))
+

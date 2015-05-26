@@ -15,11 +15,9 @@ _________          _______    _______  _        _______  _        _______
                                                                           
 '''
 
-
-    for count in range(4):
-        for count in range(11):
-            print(c.red + 'bad' + c.magenta + 'gers')
-            time.sleep(0.4)
+for count in range(11):    
+    print(c.red + 'bad' + c.magenta + 'gers')
+    time.sleep(0.4)
 
 for count in range(2):
     print('mush' + c.red + 'rooooom')
