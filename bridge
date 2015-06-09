@@ -5,7 +5,7 @@ import time as t
 
 def prompt(question):
     print(question)
-    answer =  input('> ' + c.yellow)
+    answer =  input('> ' + c.yellow).lower().strip
     print(c.reset)
     return answer
 
@@ -13,8 +13,26 @@ print(c.clear)
 print(c.red + 'Who wll dare to cross the bridge of death must answer me 3 questions')
 print(c.red + 'Ere the other side he sees')
 
-name = prompt(c.blue + 'What is your name? ')
-name = prompt(c.blue + 'What is your quest?')
+def die():
+    print('I cast you into Gorge of Eternal Holes')
+def live():
+    print('Oh well, off you go then')
 
-if name in['Lancelot','Galahad']:
-    name = prompt(c.blue + 'What is your favorite colour?') 
+name = prompt(c.blue + 'What is your name? ')
+quest = prompt(c.blue + 'What is your quest?')
+
+if name in ['lancelot','galahad']:
+    color = prompt(c.blue + 'What is your favorite color')
+    if color in ['blue','red']:
+        live()
+    else:
+        die()
+elif name == 'robin':
+    capital = prompt('What is the capital of Assyria')
+    if capital in ['assur','Ashur']:
+        live()   
+    else:
+        die()
+
+if name == 'king arthur':
+    speed  = prompt('What is the air speed velocity of an unladen swallow')
