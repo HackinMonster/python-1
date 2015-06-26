@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 import random
-import fluffy as quiz
+#import fluffy as quiz
+import sloths as quiz
 import colors as c
 
 print(c.clear + quiz.intro)
