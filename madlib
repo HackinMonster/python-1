@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+text = '''
+You are on a landing craft abording {nation} in {year}. You feel {feeling} and 
+stressed and you are afraid to raise your {body_part1} because it might get {verb_ending_ in_-ed}
+off. You pull out some {foreign_food} and eat it all up fast. Then you hear a large "THUMP" and
+and see {number} of your fellow soldiers get smashed by a {noun1}. You start running through the
+{liquid} with your {type_of_gun} with {plural1} falling from the {adjective} sky. You look for
+cover and find a pile of {plural2}. In the distance you see artillery slowly moving towards the 
+beach. You tell {best friend} about the artillery and then you see him get shot in the {bodypart2}
+You get all emotional and fall to your knees. You look up and see a giant {heavy object} falling from
+the sky. YOU DIED!
+
+'''
+
+words = {
+    "nation" : {},
+    "year" : {},
+    "feeling" : {},
+    "bodypart1" : {},
+    "verb ending in -ed" : {},
+    "foreign food" : {},
+    "number" : {},
+    "noun1" : {},
+    "liquid" : {},
+    "type of gun" : {},
+    "plural1" : {},
+    "adjective" : {},
+    "plural2" :{},
+    "best friend" : {},
+    "bodypart2" : {},
+    "heavy object" : {},
+}
+
+print(c.clear + c.red + "Welcome to madlibs. Enter your answers." + c.reset)
+
+answers = {}
+for key in words:
+    print("would get an answer for' + key)
+
+
