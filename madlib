@@ -38,6 +38,6 @@ print(c.clear + c.red + "Welcome to madlibs. Enter your answers." + c.reset)
 
 answers = {}
 for key in words:
-    print("would get an answer for' + key)
+    print("would get an answer for" + key)
 
 
