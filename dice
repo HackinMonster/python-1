@@ -1,10 +1,59 @@
 #!/usr/bin/env python3
 
 import colors as c
+
+sides = []
+
 print(c.clear)
+sides.append('''
 
-sides = [1,2,3,4,5,6]
 
-for side in sides:
-    print("side:",side)
 
+ ------- 
+|       |
+|   1   |
+|       |
+ -------
+''')
+
+sides.append('''
+ ------- 
+|       |
+|   2   |
+|       |
+ -------
+''')
+
+
+sides.append('''
+ ------- 
+|       |
+|   3   |
+|       |
+ -------
+''')
+
+
+sides.append('''
+ ------- 
+|       |
+|   4   |
+|       |
+ -------
+''')
+
+sides.append('''
+ ------- 
+|       |
+|   5   |
+|       |
+ -------
+''')
+
+sides.append('''
+ ------- 
+|       |
+|   6   |
+|       |
+ -------
+''')
