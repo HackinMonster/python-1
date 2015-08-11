@@ -2,4 +2,21 @@
 
 import colors as c 
 
+print(c.yellow + "Do you like waffles")
+q1 = input('> ')
 
+if q1 == "no":
+    print("Well I like waffles.")
+
+
+print(c.orange + "Do you like pancakes")
+q2 = input('> ')
+
+if q2 == "no":
+    print("Well I like pancakes.")
+i
+print(c.red + "Do you like frenchtoast")
+q3 = input('> ')
+
+if q3 == "no":
+    print("Well I like frenchtoast.")

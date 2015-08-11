@@ -4,4 +4,4 @@ import colors as c
 
 print(c.red + c.clear + 'Hi what is your name' )
 name = input('> ' + c.yellow + ' ')
-print(c.green + 'Nice to meet you,' + name + c.blue) 
+print(c.green + 'Nice to meet you, ' + name + c.blue) 
