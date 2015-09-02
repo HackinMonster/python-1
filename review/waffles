@@ -14,7 +14,7 @@ q2 = input('> ')
 
 if q2 == "no":
     print("Well I like pancakes.")
-i
+
 print(c.red + "Do you like frenchtoast")
 q3 = input('> ')
 
